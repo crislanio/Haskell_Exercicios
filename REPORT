@@ -1,0 +1,8 @@
+import qualified Data.Map as Map
+
+data Func = Func { nome      :: String
+                 , numVendas :: Int
+                 , total     :: Float
+                 }
+type ID = String            
+type Report = Map.Map ID Func
